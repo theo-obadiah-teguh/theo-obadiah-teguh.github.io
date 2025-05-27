@@ -31,7 +31,11 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
+        <div class="profile-description">
+            {{ range split .subtitle "\n\n" }}  <!-- Split content by empty lines -->
+                <p>{{ . | markdownify }}</p>
+            {{ end }}
+        </div>
         {{- partial "social_icons.html" -}}
 
         {{- with .buttons }}

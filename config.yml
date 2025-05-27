@@ -1,5 +1,5 @@
 baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+title: Theo Obadiah Teguh
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,29 +12,26 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Home 
+          url: /
+          weight: 1
+        - name: Research
+          url: research/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        # - name: Projects
+        #   url: projects/
+        #   weight: 3
+        - name: Learning Blog
+          url: https://cous-cous.netlify.app/
+          weight: 4
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Theo Obadiah Teguh's research papers, projects, learning materials, curriculum vitae, and contact information."
+    author: Theo Obadiah Teguh
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -44,7 +41,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["research", "projects", "learning blog"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,50 +51,48 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
+          title: Theo Obadiah Teguh
+          subtitle: |
+            Hi! I'm Theo, and welcome to my site ( ◠‿◠ ) <br>
+            I'm an incoming Master of Statistics student at the University of Hong Kong.
+            <br><br>
+
+            So far, I worked in several software roles in both industry and academia. I was a Data Scientist
+            for Oxbridge Economics under Dr. Yuanshuo Qu. I also worked as a DevOps Engineer, at
+            the Vancouver School of Economics under Dr. Jonathan Graves. Finally, I was a Data Engineer at HKU Business School 
+            under Dr. Yang Liu and Dr. Yaoyuan Zhang.
+            <br><br>
+
+            I just finished a Bachelor of Economics, Finance, and Computer Science at the University of Hong Kong. At
+            the same time, I was a Teaching Assistant for COMP1117 and COMP2113.
+            <br><br>
+
+            I was born and raised in the city of Jakarta, Indonesia 🌴 <br>
+            I really enjoy learning cool stuff and teaching it to other people 📖 <br>
+                          
+          imageUrl: "picture.png"
+          imageWidth: 185
+          imageHeight: 185
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
+            - name: Resume
+              url: cv.pdf
+            - name: Research
+              url: research/
+            # - name: Projects 
+            #   url: projects/ # TODO
+            - name: Learning Blog
+            #   url: learning/ # TODO
+              url: https://cous-cous.netlify.app/ # Temporary
             - name: Tags
               url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: mailto:theo.obadiah@gmail.com
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/theo-obadiah-teguh/
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/theo-obadiah-teguh
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +100,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Theo Obadiah Teguh"
       icon: favicon.ico
       iconHeight: 18
 
