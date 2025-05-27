@@ -1,4 +1,4 @@
 ---
 title: "Research"
-description: "Research projects by Theo Obadiah Teguh."
+description: "Theo's Research Projects."
 ---

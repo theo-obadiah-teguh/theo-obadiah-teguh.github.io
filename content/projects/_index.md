@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: "Software projects by Theo Obadiah Teguh."
+description: "Theo's Software Projects."
 ---

@@ -1,5 +1,5 @@
 ---
 title: "Learning"
-description: "Topics I covered in my academic career."
+description: "Theo's Study Notes"
 layout: "terms"
 ---
