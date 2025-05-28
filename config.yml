@@ -26,7 +26,7 @@ menu:
           weight: 4
 
 params:
-    description: "This website hosts Theo Obadiah Teguh's research papers, projects, learning materials, curriculum vitae, and contact information."
+    description: "This is my portfolio website, containing some of my projects and study notes :D"
     author: Theo Obadiah Teguh
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -67,7 +67,7 @@ params:
             the same time, I was a Teaching Assistant for COMP1117 and COMP2113.
             <br><br>
 
-            I was born and raised in the city of Jakarta, Indonesia 🌴 <br>
+            I was born and raised in the city of Jakarta, Indonesia in the land of spicy food 🌴 <br>
             I really enjoy learning cool stuff and teaching it to other people 📖 <br>
                           
           imageUrl: "picture.png"
