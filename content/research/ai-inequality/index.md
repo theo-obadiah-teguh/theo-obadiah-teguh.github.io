@@ -4,7 +4,7 @@ date: 2025-05-13
 tags: ["Artificial Intelligence","Wage Inequality","Skill Premium","United States", "Occupations", "Bureau of Labor Statistics"]
 author: ["Malisha Weerasinghe","Swarna Wijaya", "Theo Obadiah Teguh"]
 description: "" 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+summary: "This paper examines the effect of artificial intelligence on wage inequality across varying levels of skilled labor. Our results show that increasing model complexity implied by number of patents and parameters amplified wage gaps among low-skilled workers." 
 cover:
     image: ""
     alt: "AI Inequality"

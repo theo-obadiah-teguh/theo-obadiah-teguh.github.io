@@ -4,7 +4,7 @@ date: 2024-12-13
 tags: ["Sentiment Analysis","Topic Modelling","BERT", "Glassdoor", "Quantitative Trading"]
 author: ["Jadon Ng Tsz Hei","Rhenald Louwos", "Poon Tsz Chung", "Theo Obadiah Teguh"]
 description: "" 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+summary: "This paper analyzes topic-based sentiment scores within the Glassdoor employer ratings website and explores trading signal generation. We then introduce several algorithmic strategies and backtest results derived from the analysis." 
 cover:
     image: ""
     alt: "AI Inequality"
