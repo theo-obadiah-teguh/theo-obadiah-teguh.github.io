@@ -28,7 +28,7 @@ menu:
 params:
     description: "This is my portfolio website, containing some of my projects and study notes :D"
     author: Theo Obadiah Teguh
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-7CBY7D0GMP"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
